@@ -28,8 +28,8 @@ public class P extends JFrame {
     fr.setLocationRelativeTo(null);
     fr.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     
-    b1 = new JButton("★");
-    b1.setBounds(675,30,50,50);
+    b1 = new JButton("Home");
+    b1.setBounds(675,30,80,50);
     
     p1 = new JLabel("사진1");
     p1.setBounds(100, 100, 200, 200);

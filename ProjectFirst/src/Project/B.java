@@ -82,8 +82,8 @@ public class B extends JFrame {
     p10.setOpaque(true);
     p10.setBackground(Color.LIGHT_GRAY);
     
-    b1 = new JButton("★");
-    b1.setBounds(675,30,50,50);
+    b1 = new JButton("Home");
+    b1.setBounds(675,30,80,50);
     
 
     fr.getContentPane().add(b1);
