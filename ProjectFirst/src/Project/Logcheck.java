@@ -9,7 +9,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class Pjlcheck extends JFrame {
+public class Logcheck extends JFrame {
 
 	JLabel lbl1;
 	JButton btn1;
@@ -17,9 +17,9 @@ public class Pjlcheck extends JFrame {
 	BorderLayout bl = new BorderLayout();
 	
 	
-	public Pjlcheck() {
+	public Logcheck() {
 		
-		super("Pjlcheck");		
+		super("Logcheck");		
 		setTitle("가입완료");
 		
 		lbl1 = new JLabel("가입을 환영합니다.");
@@ -38,7 +38,7 @@ public class Pjlcheck extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				new ProjectLog2();
+				new Home();
 				setVisible(false);
 				
 			}

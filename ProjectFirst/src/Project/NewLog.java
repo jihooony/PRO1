@@ -99,7 +99,7 @@ public void initComponent() {
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			new Pjlcheck();
+			new Logcheck();
 			setVisible(false);
 		}
 	});

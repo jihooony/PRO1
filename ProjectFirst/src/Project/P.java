@@ -104,7 +104,7 @@ public class P extends JFrame {
 		
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			new ProjectLog2();
+			new Home();
 			fr.setVisible(false);
 			
 		}

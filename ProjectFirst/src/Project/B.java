@@ -104,7 +104,7 @@ b1.addActionListener(new ActionListener() {
 		
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			new ProjectLog2();
+			new Home();
 			fr.setVisible(false);
 			
 		}

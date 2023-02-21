@@ -9,14 +9,14 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class ProjectLog2 extends JFrame {
+public class Home extends JFrame {
 	
 	JLabel p1,p2,p3;
 	JButton btn1,btn2,btn3;
 	ImageIcon i1;
 	
 	
-	public  ProjectLog2() {
+	public  Home() {
 		
 	JFrame fr = new JFrame("HOME");
 	
@@ -46,10 +46,10 @@ public class ProjectLog2 extends JFrame {
     btn1 = new JButton(" 보세 ");
     btn1.setBounds(200,650,150,30);
 
-    btn2 = new JButton(" 빈티지 ");
+    btn2 = new JButton(" 편집샵 ");
     btn2.setBounds(650,650,150,30);
 
-    btn3 = new JButton(" 편집샵 ");
+    btn3 = new JButton(" 빈티지 ");
     btn3.setBounds(1100,650,150,30);
     
     fr.getContentPane().add(p1);
@@ -77,7 +77,7 @@ btn2.addActionListener(new ActionListener() {
 		
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			new V();
+			new P();
 			fr.setVisible(false);
 			
 		}
@@ -87,7 +87,7 @@ btn3.addActionListener(new ActionListener() {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-			new P();
+			new V();
 			fr.setVisible(false);
 		
 	}
